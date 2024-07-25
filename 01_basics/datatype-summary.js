@@ -26,4 +26,24 @@ const myFunction = function(){
 
 // Javascript is a dynamic typed language
 
+// Stack (Primitive), Heap (Non-Primitive)
 
+let myName = "Deeksha"
+let anotherName = myName
+
+anotherName = "Shasha"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@bhim"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shasha@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
